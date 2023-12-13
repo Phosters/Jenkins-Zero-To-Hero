@@ -1,5 +1,9 @@
 pipeline {
   agent none
+    options {
+    // Keep the agent running for reuse
+    reuseNode true
+  }
   stages {
     stage('Back-end') {
       agent {
