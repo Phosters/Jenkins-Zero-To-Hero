@@ -2,7 +2,7 @@ pipeline {
   agent none
     options {
     reuseNode true
- 
+       }
   stages {
     stage('Back-end') {
       agent {
@@ -22,4 +22,4 @@ pipeline {
     }
   }
  }
-}
+
