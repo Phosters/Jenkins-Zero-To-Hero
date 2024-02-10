@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: phosterhub/ultimate-cicd:replaceImageTag
+        image: phosterhub/ultimate-cicd:3
         ports:
         - containerPort: 8080
